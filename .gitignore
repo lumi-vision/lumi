@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LUMI local data, weights, generated results and credentials
+/data/*
+!/data/README.md
+/models/*
+!/models/README.md
+/outputs/*
+!/outputs/README.md
+/cache/
+.env.*
+!.env.example
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx

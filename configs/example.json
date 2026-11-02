@@ -1,0 +1,5 @@
+{
+  "input_video": "data/sample.mp4",
+  "model_path": null,
+  "output_dir": "outputs/example"
+}
